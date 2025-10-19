@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서로커뮤니케이션-클론코딩</title>
+
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zeyada&amp;display=swap" />
+	<link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet" />
+	<link href="https://fonts.cdnfonts.com/css/bacasime-antique" rel="stylesheet" />  
+	<link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" rel="stylesheet" />
+	<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script> -->
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a href="/" class="header-logo"><img src="images/logo.svg" alt="logo"></a>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#" class="cursor-able">story</a></li>
+                    <li><a href="#" class="cursor-able">works</a></li>
+                    <li><a href="#" class="cursor-able">contact</a></li>
+                    <li class="m-block"><a href="mailto:soroweb@naver.com">SORO@SOROWEB.CO.KR</a></li>  
+			        <li class="m-block"><a href="tel:02-6337-3177">02 337 3177</a></li> 
+                </ul>
+            </div>
+            <div class="ham-menu m-block">
+                <a href="javascript:void(0);" class="menu-btn"> 
+                    <span class="lines"></span>
+                </a>
+            </div>
+        </header>
+        <div class="ham-bg"></div> 
+        <div class="noise-block"></div>
+        <div class="container">
+            <div class="cursor">
+                <div class="cursor-ball">
+                    <svg height="30" width="30">
+                        <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+                    </svg>
+                </div>
+            </div>
+            <div class="main">
+                <section class="section1">
+                    <div class="visual-text"><span>SORO</span><br class="m-block"><span class="italic">for</span> <span>SORO</span></div>
+                    <div class="rolling-text">
+                        <p class="top-text">We design</p>
+                        <ul class="rotate">
+                            <li class="slide-out">Responsive</li>
+                            <li class="slide-in-out two">SEO</li>
+                            <li class="slide-in-out three">WordPress</li>
+                            <li class="slide-in-out four">Effective</li>
+                            <li class="slide-in-out five">Modern</li>
+                            <li class="slide-in-out six">Solution</li>
+                            <li class="slide-in-out seven">Platform</li>
+                            <li class="slide-in-out eight">Creative</li>
+                            <li class="slide-in-out nine">Connect</li>
+                            <li class="slide-in-out ten">Dreams</li>
+                            <li class="slide-in">Everything</li>
+                        </ul>
+                        <p class="bottom-text">Websites</p>
+                    </div>
+                    <div class="bg"><img src="images/sec01_bg.jpg" alt=""></div>
+                    <span class="scroll-text italic">Scroll</span>
+                </section>
+                <section class="section2">
+                    <div class="gallery">
+                        <ul class="gallery-track">
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/doosanheritage_ver2.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>DOOSAN HERITAGE <span class="sub-text">[Responsive Website]</span></p>
+                                    <p>ⓒ2023</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/trivn_ver.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>TRIVN <span class="sub-text">[Responsive Website]</span></p>
+                                    <p>ⓒ2024</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/doosanenerbility_ver.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>DOOSAN Enerbility <span class="sub-text">[Responsive Website]</span></p>
+                                    <p>ⓒ2021</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/eugene.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>EUGENE GROUP <span class="sub-text">[Website Renewal]</span></p>
+                                    <p>ⓒ2022</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/cj.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>CJ OliveNetworks <span class="sub-text">[Platform Development]</span></p>
+                                    <p>ⓒ2022</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-image-wrap"><img src="images/budweiser.jpg" alt=""></div>
+                                </div>
+                                <div class="flex">
+                                    <p>Budweiser <span class="sub-text">[Maintenance]</span></p>
+                                    <p>ⓒ2023</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section3">
+                    <div class="inner">
+                        <div class="wwd-content">
+                            <div class="section-txt">
+                                <span>What</span>
+                                <span class="itallc">we</span>
+                                <span>do</span>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="filter">
+                                    <div class="filter-wrap">
+                                        <p class="text" id="text">
+                                            <span>서로는</span>
+                                            <span>끝을</span>
+                                            <span>맺기를</span>
+                                            <span>처음과</span>
+                                            <span>같이합니다.</span>
+                                            <span><br></span>
+                                            <span>작은 것</span>
+                                            <span>하나도</span>
+                                            <span>놓치지</span>
+                                            <span>않고</span>
+                                            <span>확실한</span>
+                                            <span>결과물을</span>
+                                            <span>만들기</span>
+                                            <span>위해</span>
+                                            <span>항상</span>
+                                            <span>고민하고</span>
+                                            <span>소통합니다.</span>
+                                            <span><br><br></span>
+                                            <span>“소통”을</span>
+                                            <span>기본으로</span>
+                                            <span>혁신적인</span>
+                                            <span>기술과</span>
+                                            <span>창의력을</span>
+                                            <span>더해</span>
+                                            <span>고객의</span>
+                                            <span>만족을</span>
+                                            <span>감동으로</span>
+                                            <span>전하겠습니다.</span>
+                                            <span><br><br></span>
+                                            <span>Soro</span>
+                                            <span>Commucation</span>
+                                            <span>want</span>
+                                            <span>to</span>
+                                            <span>end</span>
+                                            <span>the</span>
+                                            <span>same</span>
+                                            <span>way</span>
+                                            <span>we</span>
+                                            <span>started.</span>
+                                            <span><br></span>
+                                            <span>We</span>
+                                            <span>always</span>
+                                            <span>think</span>
+                                            <span>and</span>
+                                            <span>communicate</span>
+                                            <span>to</span>
+                                            <span>create</span>
+                                            <span>clear</span>
+                                            <span>results</span>
+                                            <span>without</span>
+                                            <span>missing</span>
+                                            <span>a</span>
+                                            <span>single</span>
+                                            <span>detail.</span>
+                                            <span><br><br></span>
+                                            <span>Based</span>
+                                            <span>on</span>
+                                            <span>“communication”,</span>
+                                            <span>we</span>
+                                            <span>will</span>
+                                            <span>add</span>
+                                            <span>innovative</span>
+                                            <span>technology</span>
+                                            <span>and</span>
+                                            <span>creativity</span>
+                                            <span>to</span>
+                                            <span>deliver</span>
+                                            <span>impressive</span>
+                                            <span>customer</span>
+                                            <span>satisfaction.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="more-btn btn-arrow">
+                                    <a href="#" class="cursor-able">
+                                        <span>company profile <i class="xi-plus"></i></span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="section-tit">
+                                <div class="text-wrap">
+                                    <div class="filter">
+                                        <div class="filter-wrap">
+                                            <p class="text" id="">
+                                                <span class="italic">Design</span>
+                                                <span>is</span>
+                                                <span class="italic">never</span>
+                                                <span>done</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-btn btn-arrow">
+                                <a href="#" class="cursor-able">
+                                    <span>462+ our work</span>
+                                    <span class="arrow">
+                                        <i class="xi-arrow-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel js-pin">
+                        <div class="prj-head">
+                            <div class="inner">
+                                <p>2nd / Feb / 2023</p>
+                                <div class="prj-name">
+                                    <div class="type">
+                                        <span>Renewal</span>
+                                        <span>Website</span>
+                                        <span>Development</span>
+                                    </div>
+                                    <p>DN 오토모티브 <span class="sub-text">[DN AUTOMOTIVE]</span></p>
+                                </div>
+                                <a href="#"  class="cursor-able" target="_blank">VISIT SITE →</a>
+                            </div>
+                        </div>
+                        <div class="prj-image">
+                            <img src="images/dnautomotive.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="panel js-pin">
+                        <div class="prj-head">
+                            <div class="inner">
+                                <p>26th / April / 2024</p>
+                                <div class="prj-name">
+                                    <div class="type">
+                                        <span>UX/UI Design</span>
+                                        <span>Website</span>
+                                        <span>Development</span>
+                                    </div>
+                                    <p>르 스페이스 인스파이어 <span class="sub-text">[Hyundai Futurenet]</sup></p>
+                                </div>
+                                <a href="#"  class="cursor-able" target="_blank">VISIT SITE →</a>
+                            </div>
+                        </div>
+                        <div class="prj-image">
+                            <img src="images/lespace.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="panel js-pin">
+                        <div class="prj-head">
+                            <div class="inner">
+                                <p>28th / March / 2023</p>
+                                <div class="prj-name">
+                                    <div class="type">
+                                        <span>UX/UI Design</span>
+                                        <span>Website</span>
+                                        <span>Development</span>
+                                    </div>
+                                    <p>두산헤리티지 <span class="sub-text">[DOOSAN]</sup></p>
+                                </div>
+                                <a href="#"  class="cursor-able" target="_blank">VISIT SITE →</a>
+                            </div>
+                        </div>
+                        <div class="prj-image">
+                            <img src="images/doosanheritage.jpg?ver=1" alt="">
+                        </div>
+                    </div>
+                    <div class="panel last">
+                        <div class="prj-head">
+                            <div class="inner">
+                                <p>6th / March / 2024</p>
+                                <div class="prj-name">
+                                    <div class="type">
+                                        <span>UX/UI Design</span>
+                                        <span>Website</span>
+                                        <span>Development</span>
+                                    </div>
+                                    <p>트리마제 <span class="sub-text">[DOOSAN]</sup></p>
+                                </div>
+                                <a href="#"  class="cursor-able" target="_blank">VISIT SITE →</a>
+                            </div>
+                        </div>
+                        <div class="prj-image">
+                            <img src="images/trimage2.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="section4">
+                    <div class="marquee-section">
+                        <div class="loop-container">
+                            <div class="item">&nbsp;CJ OLIVENETWORKS · <span class="italic">DOOSAN</span> · NAVER CLOUD · <span class="italic">OB</span> · EUGENE · <span class="italic">TAIHAN</span> · SHINHAN VENTURE INVESTMENT · <span class="italic">NESPRESSO</span> · DN AUTOMOTIVE · <span class="italic">DAESUNG</span> · METANET · <span class="italic">MOTTROL</span> · </div>
+                            <div class="item">&nbsp;CJ OLIVENETWORKS · <span class="italic">DOOSAN</span> · NAVER CLOUD · <span class="italic">OB</span> · EUGENE · <span class="italic">TAIHAN</span> · SHINHAN VENTURE INVESTMENT · <span class="italic">NESPRESSO</span> · DN AUTOMOTIVE · <span class="italic">DAESUNG</span> · METANET · <span class="italic">MOTTROL</span> · </div>
+                            <div class="item">&nbsp;CJ OLIVENETWORKS · <span class="italic">DOOSAN</span> · NAVER CLOUD · <span class="italic">OB</span> · EUGENE · <span class="italic">TAIHAN</span> · SHINHAN VENTURE INVESTMENT · <span class="italic">NESPRESSO</span> · DN AUTOMOTIVE · <span class="italic">DAESUNG</span> · METANET · <span class="italic">MOTTROL</span> · </div>
+                        </div>
+                    </div>
+                    <div class="marquee-section last">
+                        <div class="loop-container reverse">
+                        <div class="item">&nbsp;MOTTROL · <span class="italic">METANET</span> · DAESUNG · <span class="italic">DN AUTOMOTIVE</span> · NESPRESSO · <span class="italic">SHINHAN VENTURE INVESTMENT</span> · TAIHAN · <span class="italic">EUGENE</span> · OB · <span class="italic">NAVER CLOUD</span> · DOOSAN · <span class="italic">CJ OLIVENETWORKS</span> · </div>
+                        <div class="item">&nbsp;MOTTROL · <span class="italic">METANET</span> · DAESUNG · <span class="italic">DN AUTOMOTIVE</span> · NESPRESSO · <span class="italic">SHINHAN VENTURE INVESTMENT</span> · TAIHAN · <span class="italic">EUGENE</span> · OB · <span class="italic">NAVER CLOUD</span> · DOOSAN · <span class="italic">CJ OLIVENETWORKS</span> · </div>
+                        <div class="item">&nbsp;MOTTROL · <span class="italic">METANET</span> · DAESUNG · <span class="italic">DN AUTOMOTIVE</span> · NESPRESSO · <span class="italic">SHINHAN VENTURE INVESTMENT</span> · TAIHAN · <span class="italic">EUGENE</span> · OB · <span class="italic">NAVER CLOUD</span> · DOOSAN · <span class="italic">CJ OLIVENETWORKS</span> · </div>
+                        </div>
+                    </div>
+                    <div class="bg"><img src="images/bg5.jpg" alt=""></div>
+                </section>
+                <section class="section5">
+                    <div class="inner">
+                        <div class="wwd-content">
+                            <div class="section-txt">
+                                <span class="italic">for</span>
+                                 <span>Everyone</span>
+                            </div>
+                            <div class="text-wrap">
+                                <div class="filter">
+                                    <div class="filter-wrap">
+                                        <p class="text" id="">
+                                            <span>풍부한</span>
+                                            <span>경험과</span>
+                                            <span>이해로</span>
+                                            <span>웹표준을</span>
+                                            <span>준수하여</span>
+                                            <span>누구나</span>
+                                            <span>이용할</span>
+                                            <span>수</span>
+                                            <span>있는</span>
+                                            <span>웹서비스를</span>
+                                            <span>제공합니다.</span>
+                                            <span><br><br></span>
+                                            <span>다양한</span>
+                                            <span>구축사례와</span>
+                                            <span>미래를</span>
+                                            <span>위한</span>
+                                            <span>노력을</span>
+                                            <span>통해</span>
+                                            <span>최신</span>
+                                            <span>기술의</span>
+                                            <span>안정적인</span>
+                                            <span>서비스를</span>
+                                            <span>제공합니다.</span>
+                                            <span><br><br></span>
+                                            <span>With</span>
+                                            <span>our</span>
+                                            <span>extensive</span>
+                                            <span>experience</span>
+                                            <span>and</span>
+                                            <span>understanding,</span>
+                                            <span>we</span>
+                                            <span>provide</span>
+                                            <span>web</span>
+                                            <span>services</span>
+                                            <span>that</span>
+                                            <span>anyone</span>
+                                            <span>can</span>
+                                            <span>use</span>
+                                            <span>by</span>
+                                            <span>complying</span>
+                                            <span>with</span>
+                                            <span>web</span>
+                                            <span>standards.</span>
+                                            <span><br><br></span>
+                                            <span>We</span>
+                                            <span>provide</span>
+                                            <span>stable</span>
+                                            <span>services</span>
+                                            <span>with the</span>
+                                            <span>latest</span>
+                                            <span>technology</span>
+                                            <span>through</span>
+                                            <span>various</span>
+                                            <span>construction</span>
+                                            <span>cases</span>
+                                            <span>and</span>
+                                            <span>efforts</span>
+                                            <span>for</span>
+                                            <span>the</span>
+                                            <span>future.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="more-btn btn-arrow">
+                                    <a href="#" class="cursor-able">
+                                        <span>contact us</span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+             </div>
+        </div>
+        <footer class="footer">
+            <div class="inner">
+                <div class="contact-typo btn-arrow">
+                    <a href="#">
+                        <span class="italic">work</span>
+                        <span>together</span>
+                        <span class="arrow">
+                            <i class="xi-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="footer-info">
+                    <div class="title"><p>[menu]</p></div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="/" class="cursor-able">
+                                        <span>home</span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="#" class="cursor-able">
+                                        <span>story</span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="#" class="cursor-able">
+                                        <span>works</span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="#" class="cursor-able">
+                                        <span>contact</span>
+                                        <span class="arrow">
+                                            <i class="xi-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    <div class="title"><p>[contact]</p></div>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="mailto:soro@soroweb.co.kr" class="cursor-able">
+                                       soro@soroweb.co.kr
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="btn-arrow">
+                                    <a href="tel:02-6337-3177" class="cursor-able">
+                                        02 6337 3177
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                서울특별시 영등포구 문래북로 8 <br />에이스엔에스타워 709,710호
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="typo">
+                        <a href="#">
+                            <span>soro comm.</span>
+                        </a>
+                    </div>
+                    <p class="copy">SORO ⓒ2024</p>
+                </div>
+            </div>
+            <div class="top-btn"> 
+                <span class="arrow">
+                <i class="xi-arrow-right"></i>
+            </span>
+        </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

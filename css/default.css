@@ -1,0 +1,38 @@
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+button {background: none; border: none;}
+img {vertical-align: middle;}
+
+*{word-break: keep-all; margin:0; padding:0; box-sizing:border-box;}
+
+html{font-size:62.5%; height: 100%; /*-webkit-touch-callout:none; -webkit-user-select:none;*/} 
+body { 
+	font-size: 14px;
+	height: 100%;
+}
+img, video{max-width: 100%;}
+
+/* 전체 스크롤바 스타일 */
+::-webkit-scrollbar {
+    width: 4px; /* 세로 스크롤바 너비 */
+    height: 4px; /* 가로 스크롤바 높이 */
+}
+
+/* 스크롤바 트랙 */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* 트랙 배경색 */
+}
+
+/* 스크롤바 핸들 (Thumb) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* 스크롤 핸들 색상 */
+    border-radius: 4px; /* 둥글게 처리 */
+}
+
+/* 스크롤바 핸들에 호버 효과 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* 호버 시 색상 */
+}
